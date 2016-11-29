@@ -1,0 +1,5 @@
+-As a user, I want to make a web page that has three images on it. Each image must be clickable.
+-As a user, I want make the said images clickable with a event handler?
+-As a user, I want each click to be recorded. When the total of clicks reaches 25 the viewer of the page must be notified.
+-As a user, I want to make the clicks recorded in a loop.
+-As a user, I want the notification to be displayed as a graph that depicts how many times each image was clicked by the pages viewer.
