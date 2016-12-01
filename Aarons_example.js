@@ -3,14 +3,14 @@ var paths = ['sweep.png', 'dog-duck.jpg', 'breakfast.jpg'];
 var items = [];
 var displayIndex = 0;
 
-var displayArea = document.getElementById('image_area');
+var elMain = document.getElementById('image_area');
 
 for(var i = 0; i < paths.length; i++) {
   var newItem = new ItemImage(paths[i]);
   items.push(newItem);
 }
 
-displayArea.addEventListener('click', clickHandler);
+elMain.addEventListener('click', clickHandler);
 
 function clickHandler(event) {
   var targetString = event.target.src;
